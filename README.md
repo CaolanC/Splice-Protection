@@ -1,0 +1,3 @@
+# Splice-Protection
+This is a concept I haven't thought out too hard yet. The basic idea is an overlay (like a gif on a stream etc.), that is made of a number of pixels. These pixels will be large. Embedded inside the box of pixels will be a time, that is accurate to a certain time zone (not the clients). The overlay is connected to a server that generates a pattern of pixels on repeat. The colors of the pixels
+will change at a set duration. The colors of pixels at certain times will be stored on the server (up to say, a month/further). When a run is submitted the embedded timer (i suppose it needs a date as well) and the colors have to match up with those in the database. Otherwise, it can be easily detected as a spliced run. That's the general idea.
